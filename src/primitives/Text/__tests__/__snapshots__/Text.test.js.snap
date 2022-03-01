@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primitive:<Text> inherit:className 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive paragraph reactor"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> prop:action 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive action"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> prop:bold 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive bold paragraph"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> prop:h1 1`] = `
+<DocumentFragment>
+  <h1
+    class="primitive paragraph"
+  >
+    Lorem Ipsum
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> prop:headline 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive headline"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> prop:small 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive small"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> prop:upperCase 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive paragraph upperCase"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
+
+exports[`primitive:<Text> renders 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive paragraph"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;

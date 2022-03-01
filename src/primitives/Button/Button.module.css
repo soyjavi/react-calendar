@@ -1,0 +1,16 @@
+.primitive {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  min-height: var(--space-M);
+  min-width: var(--space-M);
+  padding: 0;
+  appearance: none;
+}
+
+.text {
+  font-family: var(--font);
+  font-size: var(--font-size-action);
+  font-weight: var(--font-bold-weight);
+}

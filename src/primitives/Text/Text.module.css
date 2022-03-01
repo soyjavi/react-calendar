@@ -1,0 +1,31 @@
+.primitive {
+  color: var(--content);
+  font-family: var(--font);
+  font-weight: var(--font-weight);
+  text-align: var(--text-align);
+}
+
+.bold {
+  font-family: var(--font-bold);
+  font-weight: var(--font-bold-weight);
+}
+
+.headline {
+  font-size: var(--font-size-headline);
+}
+
+.paragraph {
+  font-size: var(--font-size-paragraph);
+}
+
+.action {
+  font-size: var(--font-size-action);
+}
+
+.small {
+  font-size: var(--font-size-small);
+}
+
+.upperCase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+.primitive {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row {
+  flex-direction: row;
+}
