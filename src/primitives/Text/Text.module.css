@@ -1,8 +1,9 @@
 .primitive {
   color: var(--content);
+  direction: var(--text-direction);
+  display: inline-block;
   font-family: var(--font);
   font-weight: var(--font-weight);
-  text-align: var(--text-align);
 }
 
 .bold {

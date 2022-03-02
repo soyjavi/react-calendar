@@ -1,0 +1,29 @@
+:root {
+  /* typography */
+  --font: Helvetica;
+  --font-weight: 100;
+  --font-bold: Courier;
+  --font-bold-weight: 900;
+  --font-size-headline: 24px;
+  --font-size-paragraph: 16px;
+  --font-size-action: 14px;
+  --font-size-small: 11px;
+
+  --text-direction: rtl;
+
+  /* palette */
+  --base: #ffffff;
+  --content: #000000;
+  --primary: #cd3147;
+  --accent: #00ff00;
+  --lighten: #999;
+  --disabled: #cccccc;
+
+  /* spacing */
+  --space-XS: 8px;
+  --space-S: 12px;
+  --space-M: 16px;
+  --space-L: 24px;
+  --space-XL: 32px;
+  --space-XXL: 56px;
+}
