@@ -1,0 +1,6 @@
+@import-normalize;
+@import 'index.theme.css';
+
+body {
+  background-color: var(--base);
+}

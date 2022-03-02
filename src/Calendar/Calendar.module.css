@@ -1,0 +1,47 @@
+.title {
+  flex: 1;
+  margin-bottom: var(--space-XS);
+  text-align: center;
+}
+
+.weekdays {
+  margin: var(--space-XS) 0;
+}
+
+.weekday {
+  color: var(--lighten);
+}
+
+.cell {
+  flex: 1;
+  padding-left: var(--space-XS);
+  padding-right: var(--space-XS);
+  text-align: center;
+}
+
+.cellTouchable {
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+}
+
+.cellDay {
+  align-items: center;
+  justify-content: center;
+  width: var(--space-XL);
+  height: var(--space-XL);
+  margin: 0 auto;
+}
+
+.cellDaySelected {
+  background-color: var(--primary);
+}
+
+.textDisabled {
+  color: var(--disabled);
+}
+
+.textSelected {
+  color: var(--base);
+}
