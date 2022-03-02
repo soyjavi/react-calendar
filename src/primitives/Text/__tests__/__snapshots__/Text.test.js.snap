@@ -79,3 +79,13 @@ exports[`primitive:<Text> renders 1`] = `
   </span>
 </DocumentFragment>
 `;
+
+exports[`primitive:<Text> testID 1`] = `
+<DocumentFragment>
+  <span
+    class="primitive paragraph"
+  >
+    Lorem Ipsum
+  </span>
+</DocumentFragment>
+`;
