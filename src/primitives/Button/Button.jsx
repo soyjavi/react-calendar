@@ -17,7 +17,7 @@ const Button = ({ children, disabled, tag = 'button', onPress, ...inherit }) =>
 Button.displayName = 'Primitive:Button';
 
 Button.propTypes = {
-  children: PropTypes.oneOf([PropTypes.string, PropTypes.node, PropTypes.element]),
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
   disabled: PropTypes.bool,
   tag: PropTypes.string,
   onPress: PropTypes.func,

@@ -16,7 +16,7 @@ const View = ({ children, row, tag = 'div', ...inherit }) =>
 View.displayName = 'Primitive:View';
 
 View.propTypes = {
-  children: PropTypes.oneOf([PropTypes.string, PropTypes.node]),
+  children: PropTypes.PropTypes.node,
   row: PropTypes.bool,
   tag: PropTypes.string,
 };
