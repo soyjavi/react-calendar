@@ -3,13 +3,13 @@
 exports[`molecule:<Calendar> inherit:className 1`] = `
 <DocumentFragment>
   <div
-    class="primitive reactor"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
     >
       <button
-        class="primitive"
+        class="primitive active"
       >
         &lt;
       </button>
@@ -19,7 +19,7 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -70,10 +70,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         class="primitive cellTouchable"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -83,10 +83,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -96,10 +96,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -109,10 +109,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -122,26 +122,26 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             6
           </span>
@@ -152,10 +152,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -165,10 +165,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -178,10 +178,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -191,10 +191,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -204,10 +204,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -217,26 +217,26 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             13
           </span>
@@ -247,10 +247,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -260,10 +260,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -273,10 +273,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -286,10 +286,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -299,10 +299,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -312,26 +312,26 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             20
           </span>
@@ -342,10 +342,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -355,10 +355,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -368,10 +368,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -381,10 +381,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -394,10 +394,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -407,26 +407,26 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             27
           </span>
@@ -437,10 +437,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -450,10 +450,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -463,10 +463,10 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -520,13 +520,13 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
 exports[`molecule:<Calendar> prop:disabledDates 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
     >
       <button
-        class="primitive"
+        class="primitive active"
       >
         &lt;
       </button>
@@ -536,7 +536,7 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -587,10 +587,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         class="primitive cellTouchable"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -600,10 +600,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -613,10 +613,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -626,10 +626,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -639,26 +639,26 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             6
           </span>
@@ -669,10 +669,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -682,10 +682,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -708,10 +708,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -734,26 +734,26 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             13
           </span>
@@ -764,10 +764,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -777,10 +777,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -790,10 +790,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -803,10 +803,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -816,10 +816,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -829,26 +829,26 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             20
           </span>
@@ -859,10 +859,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -872,10 +872,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -885,10 +885,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -898,10 +898,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -911,10 +911,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -924,26 +924,26 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             27
           </span>
@@ -954,10 +954,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -967,10 +967,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -980,10 +980,10 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1037,7 +1037,7 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
 exports[`molecule:<Calendar> prop:disabledPast 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
@@ -1053,7 +1053,7 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -1231,7 +1231,7 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
           class="primitive cellDay cellDaySelected"
         >
           <span
-            class="primitive paragraph textDisabled textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
@@ -1554,13 +1554,13 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
 exports[`molecule:<Calendar> prop:disabledToday 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
     >
       <button
-        class="primitive"
+        class="primitive active"
       >
         &lt;
       </button>
@@ -1570,7 +1570,7 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -1621,10 +1621,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         class="primitive cellTouchable"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1634,10 +1634,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1647,10 +1647,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1660,10 +1660,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1673,26 +1673,26 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             6
           </span>
@@ -1703,10 +1703,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1716,10 +1716,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1729,10 +1729,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1742,10 +1742,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -1755,10 +1755,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1768,26 +1768,26 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             13
           </span>
@@ -1798,10 +1798,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1811,10 +1811,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1824,10 +1824,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1837,10 +1837,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1850,10 +1850,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1863,26 +1863,26 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             20
           </span>
@@ -1893,10 +1893,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1906,10 +1906,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1919,10 +1919,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1932,10 +1932,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1945,10 +1945,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -1958,26 +1958,26 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             27
           </span>
@@ -1988,10 +1988,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2001,10 +2001,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2014,10 +2014,10 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2071,7 +2071,7 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
 exports[`molecule:<Calendar> prop:from 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
@@ -2087,7 +2087,7 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -2246,10 +2246,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2259,10 +2259,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -2272,10 +2272,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2285,26 +2285,26 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             13
           </span>
@@ -2315,10 +2315,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2328,10 +2328,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2341,10 +2341,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2354,10 +2354,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2367,10 +2367,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2380,26 +2380,26 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             20
           </span>
@@ -2410,10 +2410,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2423,10 +2423,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2436,10 +2436,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2449,10 +2449,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2462,10 +2462,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2475,26 +2475,26 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             27
           </span>
@@ -2505,10 +2505,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2518,10 +2518,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2531,10 +2531,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2588,13 +2588,13 @@ exports[`molecule:<Calendar> prop:from 1`] = `
 exports[`molecule:<Calendar> prop:locale 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
     >
       <button
-        class="primitive"
+        class="primitive active"
       >
         &lt;
       </button>
@@ -2604,7 +2604,7 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -2655,10 +2655,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         class="primitive cellTouchable"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2668,10 +2668,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2681,10 +2681,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2694,10 +2694,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2707,26 +2707,26 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             6
           </span>
@@ -2737,10 +2737,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2750,10 +2750,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2763,10 +2763,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2776,10 +2776,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -2789,10 +2789,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2802,26 +2802,26 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             13
           </span>
@@ -2832,10 +2832,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2845,10 +2845,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2858,10 +2858,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2871,10 +2871,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2884,10 +2884,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2897,26 +2897,26 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             20
           </span>
@@ -2927,10 +2927,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2940,10 +2940,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2953,10 +2953,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2966,10 +2966,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2979,10 +2979,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -2992,26 +2992,26 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             27
           </span>
@@ -3022,10 +3022,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3035,10 +3035,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3048,10 +3048,10 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3105,13 +3105,13 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
 exports[`molecule:<Calendar> prop:to 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
     >
       <button
-        class="primitive"
+        class="primitive active"
       >
         &lt;
       </button>
@@ -3172,10 +3172,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         class="primitive cellTouchable"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3185,10 +3185,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3198,10 +3198,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3211,10 +3211,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3224,26 +3224,26 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             6
           </span>
@@ -3254,10 +3254,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3267,10 +3267,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3280,10 +3280,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3293,10 +3293,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -3306,10 +3306,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3622,13 +3622,13 @@ exports[`molecule:<Calendar> prop:to 1`] = `
 exports[`molecule:<Calendar> renders 1`] = `
 <DocumentFragment>
   <div
-    class="primitive"
+    class="primitive calendar"
   >
     <div
       class="primitive row"
     >
       <button
-        class="primitive"
+        class="primitive active"
       >
         &lt;
       </button>
@@ -3638,7 +3638,7 @@ exports[`molecule:<Calendar> renders 1`] = `
         April 1980
       </span>
       <button
-        class="primitive"
+        class="primitive active"
       >
         &gt;
       </button>
@@ -3689,10 +3689,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         class="primitive cellTouchable"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3702,10 +3702,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3715,10 +3715,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3728,10 +3728,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3741,26 +3741,26 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             6
           </span>
@@ -3771,10 +3771,10 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3784,10 +3784,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3797,10 +3797,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3810,10 +3810,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive cellDay cellDaySelected cellDayTouchable"
         >
           <span
             class="primitive paragraph textSelected"
@@ -3823,10 +3823,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3836,26 +3836,26 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             13
           </span>
@@ -3866,10 +3866,10 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3879,10 +3879,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3892,10 +3892,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3905,10 +3905,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3918,10 +3918,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3931,26 +3931,26 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             20
           </span>
@@ -3961,10 +3961,10 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3974,10 +3974,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -3987,10 +3987,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -4000,10 +4000,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -4013,10 +4013,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -4026,26 +4026,26 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
-            class="primitive paragraph textDisabled"
+            class="primitive paragraph textWeekend"
           >
             27
           </span>
@@ -4056,10 +4056,10 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -4069,10 +4069,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"
@@ -4082,10 +4082,10 @@ exports[`molecule:<Calendar> renders 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive active cellTouchable"
       >
         <div
-          class="primitive cellDay focus"
+          class="primitive cellDay cellDayTouchable"
         >
           <span
             class="primitive paragraph"

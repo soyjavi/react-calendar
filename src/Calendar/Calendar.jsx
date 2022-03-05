@@ -9,12 +9,11 @@ import style from './Calendar.module.css';
 import { Week } from './Calendar.Week';
 
 export const Calendar = ({
-  disabledDates = [],
   disabledPast = false,
-  disabledToday = false,
   formatValue = 'YYYY/MM/DD',
   from,
   locale,
+  range = false,
   to,
   value,
   onChange = () => {},
@@ -22,20 +21,41 @@ export const Calendar = ({
 }) => {
   const [instance, setInstance] = useState(getFirstDateOfMonth(getToday()));
   const [selected, setSelected] = useState(undefined);
+  const [dateFocus, setDateFocus] = useState();
 
   useEffect(() => {
-    if (!value) return;
-    setInstance(getFirstDateOfMonth(new Date(value)));
-    setSelected(UTC(new Date(value)));
-  }, [value]);
+    const date = range ? (value ? value[0] : undefined) : value;
+    if (!date) return;
+
+    setInstance(getFirstDateOfMonth(new Date(date)));
+    setSelected(range ? [UTC(new Date(date)), value[1] ? UTC(new Date(value[1])) : undefined] : UTC(new Date(date)));
+  }, [range, value]);
 
   const handleChange = (date) => {
-    setSelected(date);
-    onChange(date);
+    let next;
+
+    if (!range) {
+      next = date;
+      onChange(next);
+    } else {
+      if (selected === undefined || selected.length === 0) next = [date];
+      else if (selected[1] === undefined) {
+        if (date > selected[0]) {
+          next = [selected[0], date];
+          onChange(next);
+        } else {
+          next = [date];
+          // TODO: Alert
+          setDateFocus(undefined);
+        }
+      } else next = [date];
+    }
+    setSelected(next);
   };
 
-  const handleMonth = (month) =>
+  const handleMonth = (month) => {
     setInstance(getFirstDateOfMonth(new Date(instance.getFullYear(), instance.getMonth() + month)));
+  };
 
   const instanceTS = instance.getTime();
   const todayMonthTS = getFirstDateOfMonth(getToday()).getTime();
@@ -49,7 +69,7 @@ export const Calendar = ({
   const weekdays = getWeekDays(locale);
 
   return (
-    <View {...others}>
+    <View className={styles(style.calendar, others.style)}>
       <View row>
         <Button disabled={disabledPrevious} onPress={() => handleMonth(-1)}>
           {'<'}
@@ -72,11 +92,21 @@ export const Calendar = ({
 
       {VISIBLE_WEEKS.map((week) => (
         <Week
-          {...{ disabledDates, disabledPast, disabledToday, formatValue, from, to, selected }}
+          {...{
+            ...others,
+            disabledPast,
+            dateFocus,
+            formatValue,
+            from,
+            to,
+            range,
+            selected,
+          }}
           key={week}
           month={instance.getMonth()}
           number={weekNumber + week}
           year={instance.getFullYear()}
+          onFocus={setDateFocus}
           onPress={handleChange}
         />
       ))}
@@ -87,13 +117,15 @@ export const Calendar = ({
 Calendar.displayName = 'Calendar';
 
 Calendar.propTypes = {
+  captions: PropTypes.shape({}),
   disabledDates: PropTypes.arrayOf(PropTypes.string),
   disabledPast: PropTypes.bool,
-  disabledToday: PropTypes.bool,
+  disabledWeekends: PropTypes.bool,
   formatValue: PropTypes.string,
   from: PropTypes.string,
   locale: PropTypes.string,
+  range: PropTypes.bool,
   to: PropTypes.string,
-  value: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
   onChange: PropTypes.func,
 };

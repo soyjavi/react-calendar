@@ -6,18 +6,22 @@ import { Button as Touchable, Text, View } from '../primitives';
 import { styles } from '../primitives/helpers';
 import { DAYS } from './Calendar.definition';
 import style from './Calendar.module.css';
+import { dateToISOString } from './helpers';
 
 export const Week = ({
+  captions,
   disabledDates = [],
   disabledPast = false,
-  disabledToday = false,
+  dateFocus,
   from,
-  to,
   month,
   number,
-  year,
-  onPress,
+  range,
   selected,
+  to,
+  year,
+  onPress = () => {},
+  onFocus = () => {},
   ...others
 }) => {
   const disabledDatesTS = disabledDates.map((date) => UTC(new Date(date)).getTime()).filter((date) => !isNaN(date));
@@ -26,49 +30,86 @@ export const Week = ({
   const fromTS = from ? UTC(new Date(from)).getTime() : undefined;
   const toTS = to ? UTC(new Date(to)).getTime() : undefined;
 
+  let rangeTS = {};
+  if (dateFocus) {
+    const dateFocusTS = dateFocus.getTime();
+    rangeTS = { start: selected[0].getTime(), end: dateFocusTS };
+
+    const [outbound] = disabledDatesTS.filter((ts) => ts > rangeTS.start && dateFocus >= ts).sort();
+    rangeTS.end = outbound ? outbound - 1 : dateFocusTS;
+  }
+
   return (
     <View row>
       {DAYS.map((day) => {
         const date = UTC(new Date(firstDate.getFullYear(), firstDate.getMonth(), firstDate.getDate() + day));
         const dateTS = date.getTime();
 
-        const isPast = disabledPast && date.getTime() < todayTS;
-        const isWeekend = date.getDay() === 0 || date.getDay() === 6;
-        const isDisabled =
-          isPast ||
-          isWeekend ||
-          disabledDatesTS.includes(dateTS) ||
-          (disabledToday && dateTS === todayTS) ||
-          dateTS < fromTS ||
-          dateTS > toTS;
-        const isSelected = selected && dateTS === selected.getTime();
-        const isVisible = date.getMonth() === month;
-        const isTouchable = !isSelected && !isDisabled;
-        const isToday = dateTS === todayTS;
+        const is = {
+          disabled:
+            (disabledPast && date.getTime() < todayTS) || // Past
+            !date.getMonth() === month || // Days out of month
+            disabledDatesTS.includes(dateTS) || // disabled dates
+            dateTS < fromTS || // ?
+            dateTS > toTS, // ?
+          visible: date.getMonth() === month,
+          today: dateTS === todayTS,
+        };
+
+        const isSelected =
+          range && selected
+            ? selected[0] && !selected[1]
+              ? dateTS === selected[0].getTime()
+              : selected[0] && selected[1]
+              ? dateTS >= selected[0].getTime() && dateTS <= selected[1].getTime()
+              : undefined
+            : selected && dateTS === selected.getTime();
+
+        const isInRange = dateTS > rangeTS.start && dateTS < rangeTS.end;
+        const isTouchable =
+          // is.visible && !is.disabled && (!range || (range && !dateFocus) || (range && dateFocus && isInRange));
+          !is.disabled;
+
+        const isCreatingRange = range && selected?.[0] && !selected[1];
+
+        const textStyle = is.disabled
+          ? style.textDisabled
+          : isSelected || dateTS === rangeTS.end
+          ? style.textSelected
+          : undefined;
+
+        const caption = captions ? captions[dateToISOString(date)] : undefined;
 
         return (
           <Touchable
+            disabled={is.disabled || !is.visible}
             testID={`${others.testID}-${day}`}
             key={day}
-            tabIndex={!isDisabled ? date.getDate() : undefined}
-            className={style.cellTouchable}
-            onPress={isVisible && !isDisabled && !isSelected ? () => onPress(date) : undefined}
+            tabIndex={is.visible && !is.disabled ? date.getDate() : undefined}
+            className={style.cell}
+            onEnter={isCreatingRange ? () => onFocus(date) : undefined}
+            onLeave={isCreatingRange ? () => onFocus() : undefined}
+            onPress={() => onPress(date)}
           >
-            {isVisible && (
+            {is.visible && (
               <View
                 className={styles(
                   style.cellDay,
                   isSelected && style.cellDaySelected,
-                  isTouchable && style.focus,
-                  isToday && (isDisabled ? style.todayDisabled : style.today),
+                  isInRange && style.cellDayRange,
+                  (dateTS === rangeTS.start || dateTS === rangeTS.end) && style.cellDayRangeLimits,
+                  !isSelected && isTouchable && style.cellTouchable,
                 )}
               >
-                <Text
-                  bold={isToday}
-                  className={styles(isDisabled && style.textDisabled, isSelected && style.textSelected)}
-                >
+                <Text bold={is.today} className={textStyle}>
                   {toLocale(date, { day: 'numeric' })}
                 </Text>
+
+                {captions && (
+                  <Text small className={styles(textStyle, style.caption)}>
+                    {caption || ''}
+                  </Text>
+                )}
               </View>
             )}
           </Touchable>
@@ -81,15 +122,17 @@ export const Week = ({
 Week.displayName = 'Week';
 
 Week.propTypes = {
-  color: PropTypes.string,
+  captions: PropTypes.shape({}),
+  dateFocus: PropTypes.date,
   disabledDates: PropTypes.arrayOf(PropTypes.string),
   disabledPast: PropTypes.bool,
-  disabledToday: PropTypes.bool,
   from: PropTypes.string,
-  month: PropTypes.number.isRequired,
-  number: PropTypes.number.isRequired,
-  onPress: PropTypes.func,
-  selected: PropTypes.any,
   to: PropTypes.string,
   year: PropTypes.number.isRequired,
+  month: PropTypes.number.isRequired,
+  number: PropTypes.number.isRequired,
+  range: PropTypes.bool,
+  selected: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
+  onFocus: PropTypes.func,
+  onPress: PropTypes.func,
 };
