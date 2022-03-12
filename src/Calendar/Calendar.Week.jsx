@@ -1,18 +1,20 @@
+import { dateFormat, UTC } from '@soyjavi/locale';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { getFirstDateOfWeek, getToday, toLocale, UTC } from '../helpers';
 import { Button as Touchable, Text, View } from '../primitives';
 import { styles } from '../primitives/helpers';
 import { DAYS } from './Calendar.definition';
 import style from './Calendar.module.css';
-import { dateToISOString } from './helpers';
+import { getFirstDateOfWeek, getToday } from './helpers';
 
 export const Week = ({
   captions,
   disabledDates = [],
   disabledPast = false,
   dateFocus,
+  locale,
+  formatValue,
   from,
   month,
   number,
@@ -31,12 +33,17 @@ export const Week = ({
   const toTS = to ? UTC(new Date(to)).getTime() : undefined;
 
   let rangeTS = {};
-  if (dateFocus) {
-    const dateFocusTS = dateFocus.getTime();
-    rangeTS = { start: selected[0].getTime(), end: dateFocusTS };
+  if (range) {
+    const [start, end] = selected;
+    rangeTS = { start: start ? start.getTime() : undefined, end: end ? end.getTime() : undefined };
 
-    const [outbound] = disabledDatesTS.filter((ts) => ts > rangeTS.start && dateFocus >= ts).sort();
-    rangeTS.end = outbound ? outbound - 1 : dateFocusTS;
+    if (dateFocus) {
+      const dateFocusTS = dateFocus.getTime();
+      const [outbound] = disabledDatesTS.filter((ts) => ts > rangeTS.start && dateFocusTS >= ts).sort();
+
+      rangeTS.end = outbound ? outbound - 1 : dateFocusTS;
+      rangeTS.outbound = outbound - 1;
+    }
   }
 
   return (
@@ -47,13 +54,19 @@ export const Week = ({
 
         const is = {
           disabled:
-            (disabledPast && date.getTime() < todayTS) || // Past
-            !date.getMonth() === month || // Days out of month
+            (disabledPast && date.getTime() < todayTS) || // past
+            !date.getMonth() === month || // days out of month
             disabledDatesTS.includes(dateTS) || // disabled dates
-            dateTS < fromTS || // ?
-            dateTS > toTS, // ?
-          visible: date.getMonth() === month,
+            dateTS < fromTS || // less than range
+            dateTS > toTS, // more than range
+          outOfRange: dateTS > rangeTS.outbound,
+          range: dateTS > rangeTS.start && dateTS < rangeTS.end,
+          rangeLimit: dateTS === rangeTS.start || dateTS === rangeTS.end,
+          // ranged:
+          ranging: range && selected?.[0] && !selected[1],
           today: dateTS === todayTS,
+          touchable: true,
+          visible: date.getMonth() === month,
         };
 
         const isSelected =
@@ -63,14 +76,7 @@ export const Week = ({
               : selected[0] && selected[1]
               ? dateTS >= selected[0].getTime() && dateTS <= selected[1].getTime()
               : undefined
-            : selected && dateTS === selected.getTime();
-
-        const isInRange = dateTS > rangeTS.start && dateTS < rangeTS.end;
-        const isTouchable =
-          // is.visible && !is.disabled && (!range || (range && !dateFocus) || (range && dateFocus && isInRange));
-          !is.disabled;
-
-        const isCreatingRange = range && selected?.[0] && !selected[1];
+            : dateTS === selected?.getTime();
 
         const textStyle = is.disabled
           ? style.textDisabled
@@ -78,36 +84,34 @@ export const Week = ({
           ? style.textSelected
           : undefined;
 
-        const caption = captions ? captions[dateToISOString(date)] : undefined;
-
         return (
           <Touchable
-            disabled={is.disabled || !is.visible}
-            testID={`${others.testID}-${day}`}
+            disabled={is.disabled || is.outOfRange || !is.visible}
             key={day}
             tabIndex={is.visible && !is.disabled ? date.getDate() : undefined}
+            testID={`${others.testID}-${day}`}
             className={style.cell}
-            onEnter={isCreatingRange ? () => onFocus(date) : undefined}
-            onLeave={isCreatingRange ? () => onFocus() : undefined}
+            onEnter={is.ranging ? () => onFocus(date) : undefined}
+            onLeave={is.ranging ? () => onFocus() : undefined}
             onPress={() => onPress(date)}
           >
             {is.visible && (
               <View
                 className={styles(
-                  style.cellDay,
-                  isSelected && style.cellDaySelected,
-                  isInRange && style.cellDayRange,
-                  (dateTS === rangeTS.start || dateTS === rangeTS.end) && style.cellDayRangeLimits,
-                  !isSelected && isTouchable && style.cellTouchable,
+                  style.day,
+                  isSelected && style.daySelected,
+                  is.range && style.dayRange,
+                  is.rangeLimit && style.dayRangeLimit,
+                  !isSelected && !is.disabled && isSelected && style.dayTouchable,
                 )}
               >
                 <Text bold={is.today} className={textStyle}>
-                  {toLocale(date, { day: 'numeric' })}
+                  {dateFormat(date, { locale, day: 'numeric' })}
                 </Text>
 
                 {captions && (
                   <Text small className={styles(textStyle, style.caption)}>
-                    {caption || ''}
+                    {captions[dateFormat(date, { format: formatValue })] || ''}
                   </Text>
                 )}
               </View>
@@ -123,16 +127,18 @@ Week.displayName = 'Week';
 
 Week.propTypes = {
   captions: PropTypes.shape({}),
-  dateFocus: PropTypes.date,
+  dateFocus: PropTypes.object,
   disabledDates: PropTypes.arrayOf(PropTypes.string),
   disabledPast: PropTypes.bool,
+  locale: PropTypes.string,
+  formatValue: PropTypes.string,
   from: PropTypes.string,
   to: PropTypes.string,
   year: PropTypes.number.isRequired,
   month: PropTypes.number.isRequired,
   number: PropTypes.number.isRequired,
   range: PropTypes.bool,
-  selected: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
+  selected: PropTypes.oneOfType([PropTypes.object, PropTypes.arrayOf(PropTypes.object)]),
   onFocus: PropTypes.func,
   onPress: PropTypes.func,
 };

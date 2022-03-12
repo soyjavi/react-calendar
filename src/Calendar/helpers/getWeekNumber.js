@@ -1,4 +1,4 @@
-import { UTC } from './UTC';
+import { UTC } from '@soyjavi/locale';
 
 export const getWeekNumber = (date) => {
   const firstDayOfYear = UTC(new Date(date.getFullYear(), 0, 1));

@@ -1,6 +1,5 @@
 :root {
-  /* --soyjavi-calendar-cell: var(--space-XXL); */
-  --soyjavi-calendar-cell: 56px;
+  --soyjavi-calendar-cell: var(--space-XXL);
 }
 
 .calendar {
@@ -27,7 +26,7 @@
   color: var(--lighten);
 }
 
-.cellDay {
+.day {
   align-items: center;
   justify-content: center;
   width: var(--soyjavi-calendar-cell);
@@ -35,16 +34,20 @@
   margin: 0 auto;
 }
 
-.cellDaySelected {
+.daySelected {
   background-color: var(--primary);
 }
 
-.cellDayRange:not(.cellDaySelected) {
+.dayRange:not(.daySelected) {
   background-color: var(--disabled);
 }
 
-.cellDayRangeLimits {
+.dayRangeLimit {
   background-color: var(--content);
+}
+
+.dayTouchable:hover {
+  background-color: var(--lighten);
 }
 
 .textDisabled {
@@ -55,13 +58,10 @@
   color: var(--base);
 }
 
-.cellTouchable:hover {
-  background-color: var(--lighten);
-}
-
 .caption {
   white-space: pre-wrap;
   height: var(--font-size-small);
+  margin-top: calc(var(--space-XS) / 2);
   max-width: calc(var(--soyjavi-calendar-cell) * 0.8);
   overflow: hidden;
   text-overflow: ellipsis;

@@ -3,26 +3,28 @@
 exports[`molecule:<Calendar> inherit:className 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive active"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -67,81 +69,593 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             1
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             2
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             3
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             4
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
           >
             6
           </span>
@@ -152,91 +666,91 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             7
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             8
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             9
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             11
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             13
           </span>
@@ -247,91 +761,91 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             14
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             15
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             16
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             17
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             18
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             20
           </span>
@@ -342,91 +856,91 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             21
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             22
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             23
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             24
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             25
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             27
           </span>
@@ -437,80 +951,80 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             28
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             29
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             30
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -520,26 +1034,28 @@ exports[`molecule:<Calendar> inherit:className 1`] = `
 exports[`molecule:<Calendar> prop:disabledDates 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive active"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -584,81 +1100,593 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             1
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             2
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             3
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             4
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
           >
             6
           </span>
@@ -669,36 +1697,36 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             7
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             8
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -708,23 +1736,23 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -734,26 +1762,26 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             13
           </span>
@@ -764,91 +1792,91 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             14
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             15
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             16
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             17
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             18
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             20
           </span>
@@ -859,91 +1887,91 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             21
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             22
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             23
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             24
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             25
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             27
           </span>
@@ -954,80 +1982,80 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             28
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             29
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             30
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -1037,26 +2065,28 @@ exports[`molecule:<Calendar> prop:disabledDates 1`] = `
 exports[`molecule:<Calendar> prop:disabledPast 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -1101,13 +2131,25 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1117,10 +2159,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1129,11 +2171,15 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1143,10 +2189,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1156,10 +2202,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1169,10 +2215,506 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1186,10 +2728,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1199,10 +2741,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1212,10 +2754,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1225,10 +2767,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1238,10 +2780,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1251,10 +2793,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1264,10 +2806,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1281,10 +2823,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1294,10 +2836,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1307,10 +2849,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1320,10 +2862,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1333,10 +2875,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1346,10 +2888,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1359,10 +2901,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1376,10 +2918,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1389,10 +2931,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1402,10 +2944,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1415,10 +2957,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1428,10 +2970,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1441,10 +2983,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1454,10 +2996,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1471,10 +3013,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1484,10 +3026,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1497,10 +3039,10 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -1510,41 +3052,41 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -1554,26 +3096,28 @@ exports[`molecule:<Calendar> prop:disabledPast 1`] = `
 exports[`molecule:<Calendar> prop:disabledToday 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive active"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -1618,81 +3162,593 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             1
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             2
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             3
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             4
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
           >
             6
           </span>
@@ -1703,91 +3759,91 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             7
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             8
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             9
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             11
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             13
           </span>
@@ -1798,91 +3854,91 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             14
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             15
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             16
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             17
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             18
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             20
           </span>
@@ -1893,91 +3949,91 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             21
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             22
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             23
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             24
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             25
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             27
           </span>
@@ -1988,80 +4044,80 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             28
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             29
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             30
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -2071,26 +4127,28 @@ exports[`molecule:<Calendar> prop:disabledToday 1`] = `
 exports[`molecule:<Calendar> prop:from 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -2135,13 +4193,25 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2151,10 +4221,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2163,11 +4233,15 @@ exports[`molecule:<Calendar> prop:from 1`] = `
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2177,10 +4251,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2190,10 +4264,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2203,10 +4277,506 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2220,10 +4790,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2233,10 +4803,10 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -2246,65 +4816,65 @@ exports[`molecule:<Calendar> prop:from 1`] = `
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             9
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             11
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             13
           </span>
@@ -2315,91 +4885,91 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             14
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             15
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             16
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             17
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             18
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             20
           </span>
@@ -2410,91 +4980,91 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             21
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             22
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             23
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             24
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             25
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             27
           </span>
@@ -2505,80 +5075,80 @@ exports[`molecule:<Calendar> prop:from 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             28
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             29
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             30
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -2588,26 +5158,28 @@ exports[`molecule:<Calendar> prop:from 1`] = `
 exports[`molecule:<Calendar> prop:locale 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive active"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -2652,81 +5224,593 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             1
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             2
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             3
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             4
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
           >
             6
           </span>
@@ -2737,91 +5821,91 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             7
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             8
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             9
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             11
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             13
           </span>
@@ -2832,91 +5916,91 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             14
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             15
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             16
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             17
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             18
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             20
           </span>
@@ -2927,91 +6011,91 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             21
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             22
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             23
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             24
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             25
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             27
           </span>
@@ -3022,80 +6106,80 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             28
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             29
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             30
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -3105,26 +6189,28 @@ exports[`molecule:<Calendar> prop:locale 1`] = `
 exports[`molecule:<Calendar> prop:to 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive active"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -3169,81 +6255,593 @@ exports[`molecule:<Calendar> prop:to 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             1
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             2
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             3
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             4
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
           >
             6
           </span>
@@ -3254,75 +6852,75 @@ exports[`molecule:<Calendar> prop:to 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             7
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             8
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             9
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             11
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3332,10 +6930,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3349,10 +6947,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3362,10 +6960,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3375,10 +6973,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3388,10 +6986,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3401,10 +6999,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3414,10 +7012,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3427,10 +7025,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3444,10 +7042,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3457,10 +7055,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3470,10 +7068,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3483,10 +7081,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3496,10 +7094,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3509,10 +7107,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3522,10 +7120,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3539,10 +7137,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3552,10 +7150,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3565,10 +7163,10 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay"
+          class="primitive day"
         >
           <span
             class="primitive paragraph textDisabled"
@@ -3578,41 +7176,41 @@ exports[`molecule:<Calendar> prop:to 1`] = `
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>
@@ -3622,26 +7220,28 @@ exports[`molecule:<Calendar> prop:to 1`] = `
 exports[`molecule:<Calendar> renders 1`] = `
 <DocumentFragment>
   <div
+    class="primitive row"
+  >
+    <button
+      class="primitive"
+    />
+    <button
+      class="primitive active"
+    >
+      →
+    </button>
+  </div>
+  <div
     class="primitive calendar"
   >
     <div
       class="primitive row"
     >
-      <button
-        class="primitive active"
-      >
-        &lt;
-      </button>
       <span
         class="primitive bold paragraph upperCase title"
       >
-        April 1980
+        March 1980
       </span>
-      <button
-        class="primitive active"
-      >
-        &gt;
-      </button>
     </div>
     <div
       class="primitive row weekdays"
@@ -3686,81 +7286,593 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             1
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             2
           </span>
         </div>
       </button>
+    </div>
+    <div
+      class="primitive row"
+    >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             3
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             4
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             5
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
+          >
+            6
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            7
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            8
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            9
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            10
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            11
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day daySelected"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            12
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            13
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            14
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            15
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            16
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            17
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            18
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            19
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            20
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            21
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            22
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            23
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            24
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            25
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            26
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            27
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            28
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            29
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            30
+          </span>
+        </div>
+      </button>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            31
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      />
+    </div>
+  </div>
+  <div
+    class="primitive calendar"
+  >
+    <div
+      class="primitive row"
+    >
+      <span
+        class="primitive bold paragraph upperCase title"
+      >
+        April 1980
+      </span>
+    </div>
+    <div
+      class="primitive row weekdays"
+    >
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Mon
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Tue
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Wed
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Thu
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Fri
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sat
+      </span>
+      <span
+        class="primitive small upperCase cell weekday"
+      >
+        Sun
+      </span>
+    </div>
+    <div
+      class="primitive row"
+    >
+      <button
+        class="primitive cell"
+      />
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            1
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            2
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            3
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            4
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
+          >
+            5
+          </span>
+        </div>
+      </button>
+      <button
+        class="primitive cell"
+      >
+        <div
+          class="primitive day"
+        >
+          <span
+            class="primitive paragraph textDisabled"
           >
             6
           </span>
@@ -3771,91 +7883,91 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             7
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             8
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             9
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDaySelected cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textSelected"
+            class="primitive paragraph textDisabled"
           >
             10
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             11
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             12
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             13
           </span>
@@ -3866,91 +7978,91 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             14
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             15
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             16
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             17
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             18
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             19
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             20
           </span>
@@ -3961,91 +8073,91 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             21
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             22
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             23
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             24
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             25
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             26
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph textWeekend"
+            class="primitive paragraph textDisabled"
           >
             27
           </span>
@@ -4056,80 +8168,80 @@ exports[`molecule:<Calendar> renders 1`] = `
       class="primitive row"
     >
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             28
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             29
           </span>
         </div>
       </button>
       <button
-        class="primitive active cellTouchable"
+        class="primitive cell"
       >
         <div
-          class="primitive cellDay cellDayTouchable"
+          class="primitive day"
         >
           <span
-            class="primitive paragraph"
+            class="primitive paragraph textDisabled"
           >
             30
           </span>
         </div>
       </button>
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
     <div
       class="primitive row"
     >
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
       <button
-        class="primitive cellTouchable"
+        class="primitive cell"
       />
     </div>
   </div>

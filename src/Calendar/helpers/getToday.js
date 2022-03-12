@@ -1,3 +1,3 @@
-import { UTC } from './UTC';
+import { UTC } from '@soyjavi/locale';
 
 export const getToday = () => UTC(new Date());

@@ -1,6 +1,6 @@
+import { UTC } from '@soyjavi/locale';
 import { render } from '@soyjavi/testing-react';
-import { DATE } from 'helpers/__tests__/calendar.test.config';
-import { UTC } from 'helpers/UTC';
+import { DATE } from 'Calendar/helpers/__tests__/calendar.test.config';
 import React from 'react';
 
 // import { hookStyler } from '@mocks';

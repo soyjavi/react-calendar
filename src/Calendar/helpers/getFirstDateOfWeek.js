@@ -1,4 +1,4 @@
-import { UTC } from './UTC';
+import { UTC } from '@soyjavi/locale';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const WEEK_MS = 7 * DAY_MS;
