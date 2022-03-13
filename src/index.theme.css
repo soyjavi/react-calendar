@@ -1,23 +1,23 @@
 :root {
   /* typography */
   --font: Helvetica;
-  --font-weight: 100;
-  --font-bold: Courier;
+  --font-weight: 400;
+  --font-bold: Helvetica;
   --font-bold-weight: 900;
   --font-size-headline: 24px;
   --font-size-paragraph: 16px;
   --font-size-action: 14px;
   --font-size-small: 11px;
 
-  --text-direction: rtl;
+  --text-direction: ltr;
 
   /* palette */
   --base: #ffffff;
   --content: #000000;
   --primary: #cd3147;
   --accent: #00ff00;
-  --lighten: #999;
-  --disabled: #cccccc;
+  --lighten: #aaaaaa;
+  --disabled: #dddddd;
 
   /* spacing */
   --space-XS: 8px;
