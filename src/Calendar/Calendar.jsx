@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React, { useEffect, useState } from 'react';
 
 import { useDevice } from '../hooks';
-import { Button, View } from '../primitives';
+import { View } from '../primitives';
 import { Month } from './Calendar.Month';
 import { getFirstDateOfMonth, getToday } from './helpers';
 
@@ -73,25 +73,17 @@ export const Calendar = ({
     onFocus: setDateFocus,
   };
 
-  console.log({ isDesktop });
-
   return (
-    <>
-      <View row>
-        <Button disabled={disabledPrevious} onPress={() => handleMonth(-months)}>
-          {!disabledPrevious && '←'}
-        </Button>
-
-        <Button disabled={disabledNext} onPress={() => handleMonth(months)}>
-          {!disabledNext && '→'}
-        </Button>
-      </View>
-
-      <Month instance={instance} {...props} />
-      {Array.from({ length: months - 1 }, (empty, index) => (
-        <Month instance={new Date(instance.getFullYear(), instance.getMonth() + index + 1, 1)} {...props} />
+    <View row={isDesktop}>
+      {Array.from({ length: months }, (empty, index) => (
+        <Month
+          onNext={isDesktop && index === months - 1 && !disabledNext ? () => handleMonth(months) : undefined}
+          onPrevious={isDesktop && index === 0 && !disabledPrevious ? () => handleMonth(-months) : undefined}
+          instance={new Date(instance.getFullYear(), instance.getMonth() + index, 1)}
+          {...props}
+        />
       ))}
-    </>
+    </View>
   );
 };
 

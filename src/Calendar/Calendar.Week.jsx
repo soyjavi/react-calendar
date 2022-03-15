@@ -2,7 +2,7 @@ import { dateFormat, UTC } from '@soyjavi/locale';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { Button as Touchable, Text, View } from '../primitives';
+import { Pressable, Text, View } from '../primitives';
 import { styles } from '../primitives/helpers';
 import { DAYS } from './Calendar.definition';
 import style from './Calendar.module.css';
@@ -85,7 +85,7 @@ export const Week = ({
           : undefined;
 
         return (
-          <Touchable
+          <Pressable
             disabled={is.disabled || is.outOfRange || !is.visible}
             key={day}
             tabIndex={is.visible && !is.disabled ? date.getDate() : undefined}
@@ -116,7 +116,7 @@ export const Week = ({
                 )}
               </View>
             )}
-          </Touchable>
+          </Pressable>
         );
       })}
     </View>

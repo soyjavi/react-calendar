@@ -1,5 +1,5 @@
 :root {
-  --soyjavi-calendar-cell: var(--space-XXL);
+  --soyjavi-calendar-cell: calc(var(--space-XXL) - var(--space-XS));
 }
 
 .calendar {

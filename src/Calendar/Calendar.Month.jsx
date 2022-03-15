@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { Text, View } from '../primitives';
+import { Button, Text, View } from '../primitives';
 import { styles } from '../primitives/helpers';
 import { DAYS, VISIBLE_WEEKS } from './Calendar.definition';
 import style from './Calendar.module.css';
@@ -21,6 +21,8 @@ export const Month = ({
   // value,
   onChange = () => {},
   onFocus = () => {},
+  onNext,
+  onPrevious,
   ...others
 }) => {
   const weekNumber = getWeekNumber(instance);
@@ -29,9 +31,11 @@ export const Month = ({
   return (
     <View className={styles(style.calendar, others.style)}>
       <View row>
+        {onPrevious && <Button onPress={onPrevious}>{'←'}</Button>}
         <Text bold upperCase className={style.title}>
           {getHeader(instance, locale)}
         </Text>
+        {onNext && <Button onPress={onNext}>{'→'}</Button>}
       </View>
 
       <View row className={style.weekdays}>
@@ -85,4 +89,6 @@ Month.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]),
   onChange: PropTypes.func,
   onFocus: PropTypes.func,
+  onNext: PropTypes.func,
+  onPrevious: PropTypes.func,
 };
